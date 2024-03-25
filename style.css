@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke
+}
+
+#hero {
+    background-image: url("static/green-glass.jpg");
+    background-size: cover;
+    background-color: greenyellow;
+    position: relative;
+    height: 100vh;
+    width: 40%;
+}
+
+#logo {
+    width: 40px;
+    height: auto;
+}
+
+#hero-name {
+    background-color: rgba(255, 255, 255, 0.781);
+    margin-top: 150px;
+    padding: 50px;
+    text-align: center;
+    color: rgb(75, 107, 35);
+    font-size: 40px;
+}
+
+#photo-credit {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: rgb(71, 65, 65);
+    background-color: rgba(255, 255, 255, 0.781);
+}
+
+
+#interactive-block {
+    height: 100vh;
+    width: 60%;
+    color: rgb(71, 65, 65);
+}
+
+#intro {
+    margin-top: 70px;
+    padding: 40px;
+    font-size: 14px;
+}
+
+form {
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+    columns: 2;
+    margin-right: 0px;
+}
+
+input {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    border: 1px solid #E5E7EB;
+}
+
+#input-block ul li:nth-child(even) {
+    margin-right: 0;
+}
+
+#input-block {
+    background-color: white;
+    padding-left: 40px; 
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#submit-button {
+    background-color: rgb(75, 107, 35);
+    color: whitesmoke;
+    border-radius: 8px;
+    margin: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid white;
+}
+#log-in {
+    margin-left: 40px;
+    font-size: 14px;
+}
+

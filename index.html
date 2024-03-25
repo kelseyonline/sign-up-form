@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/jellee-typeface" type="text/css"/>     
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <section id="hero">
+        <h1 id="hero-name"><img src="/static/leaf-outline.svg" alt="leaf outline" id="logo"> The Odin Project </h1>
+        <h5 id="photo-credit">Photo by <a href="https://unsplash.com/@theshubhamdhage">Shubham Dhage</a> on <a href="https://unsplash.com/">Unsplash</a></h5>
+    </section>
+    <section id="interactive-block">
+        <section id="intro">
+            <h2 id="intro-text">This is not a real online service! You know you 
+                need something like this in your life to help you realize your 
+                deepest dreams. Sign up <em>now</em> to get started.
+            </h2>
+            <h2>
+                You <em>know</em> you want to.
+            </h2>
+        </section>
+        <form action="/form-handling-page" method="post">
+            <div id="input-block">
+                <ul>
+                    <li>
+                        <label for="first-name">First name</label>
+                        <input type="text" id="first-name" placeholder="Thor">
+                    </li>
+                    <li>
+                        <label for="last-name">Last name</label>
+                        <input type="text" id="last-name" placeholder="Odinson">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="example@domain.com">
+                    </li>
+                    <li>
+                        <label for="phone-number">Phone number</label>
+                        <input type="tel" id="phone-number">
+                    </li>
+                    <li>
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+                    </li>
+                    <li>
+                        <label for="password-2">Re-enter password</label>
+                        <input type="password" id="password-2">
+                    </li>
+                </ul>
+            </div>
+            <button type="submit" id="submit-button">Create Account</button>
+        </form>
+        <h4 id="log-in">Already have an account? <a href="">Log in</a></h4>
+    </section>
+</body>
+</html>
